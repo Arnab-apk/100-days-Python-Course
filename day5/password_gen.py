@@ -34,11 +34,14 @@ for char in range(0,nr_numbers):
     password_list.append(random.choice(numbers))
 for char in range(0,nr_symbols):
     password_list.append(random.choice(symbols))
-
+#before shuffling
+print(password)
 #shuffling the order
 random.shuffle(password_list)
-print(f"The random password is: {password_list}")
-             
+#converting list to a string
+for char in password_list:
+    password+=char
+print(f"Your password is: {password}") 
 
 
 
