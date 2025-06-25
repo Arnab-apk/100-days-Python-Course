@@ -13,3 +13,11 @@ for maxi in student_score:
     if(maxi>max):
         max=maxi
 print(max)
+
+#range function
+#generating a range of numbers using loops
+
+for number in range(1,10):
+    print(number)
+
+
