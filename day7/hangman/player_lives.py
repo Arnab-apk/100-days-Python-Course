@@ -63,7 +63,7 @@ word = ('ant baboon badger bat bear beaver camel cat clam cobra cougar '
          'stork swan tiger toad trout turkey turtle weasel whale wolf '
          'wombat zebra ').split()
 rand_word=random.choice(word)
-print(rand_word)
+# print(rand_word)
 len=len(rand_word)
 placeholder=""
 for position in range(0,len):
