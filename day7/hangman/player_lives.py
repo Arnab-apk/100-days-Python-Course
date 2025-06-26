@@ -84,7 +84,7 @@ while not game_over:
         else:
             display+="_"
     print(display)
-    print(pics[lives])   
+    print(pics[lives-1])   
     if "_" not in display:
         game_over=True
         print("You Win")
