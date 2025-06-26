@@ -10,6 +10,7 @@ print(placeholder)
 correct_letters=[]
 game_over=False
 while not game_over:
+    
     char=input("Guess a letter: ").lower()
     display=""
     for letter in rand_word:
