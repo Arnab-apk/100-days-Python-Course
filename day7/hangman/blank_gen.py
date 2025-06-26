@@ -9,8 +9,10 @@ for position in range(0,len):
 print(placeholder)
 char=input("Guess a letter: ").lower()
 
+display=""
 for letter in rand_word:
     if(char==letter):
-        print(char)
+        display+=char
     else:
-        print("wrong")
+        display+="_"
+print(display)
