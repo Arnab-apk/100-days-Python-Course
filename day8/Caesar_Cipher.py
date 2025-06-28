@@ -37,4 +37,3 @@ while should_cont:
     if restart=='no':
         should_cont=False
         print("Good Bye!")
-
