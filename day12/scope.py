@@ -1,9 +1,15 @@
+# global modification
 enemies=1
-print(enemies)
-#local scope
-def inc():
-    enemies=2
+
+def increase_enemies():
+    #global scope modificaton in local scope
+    global enemies
+    enemies+=1
     print(enemies)
-inc()
+
+increase_enemies()
+print(f"enemies outside function {enemies}")
+
+
 
 
