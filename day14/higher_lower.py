@@ -37,7 +37,8 @@ while game_should_continue:
 
     #ask the user for a guess
     user_guess = input("Who has more followers? Type 'A' or 'B': ").upper()
-
+     
+     #clear the screen for better visibility
     #get follower count of accounts
     a_follower_count = account_a["follower_count"]
     b_follower_count = account_b["follower_count"]
@@ -47,9 +48,13 @@ while game_should_continue:
     
     if user_is_correct:
         score += 1
+        print("\n" * 100)
+        print(logo)
         print(f"You are correct! Current score: {score}")
         #make account_b the next account at position a
         account_a = account_b
+        
+
     else:
         print(f"Sorry, that's wrong. B has more followers. Final score: {score}")
         game_should_continue = False
