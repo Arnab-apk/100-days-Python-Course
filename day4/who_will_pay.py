@@ -10,8 +10,8 @@ friends=["Arnab","debasmit","shubhra","nirjhar"]
 # print(friends[len(friends)-1])
 
 #nested lists
-fruits=["apples","strawberry","banana"]
-vegetables=["spinach","potato","tomatoes"]
-dirty_dozen=[fruits,vegetables]
+# fruits=["apples","strawberry","banana"]
+# vegetables=["spinach","potato","tomatoes"]
+# dirty_dozen=[fruits,vegetables]
 
-print(dirty_dozen[1][1])
+# print(dirty_dozen[1][1])
