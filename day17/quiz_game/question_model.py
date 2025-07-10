@@ -4,4 +4,3 @@ class Question:
         self.answer=answer
         
 new_q=Question("Hello","True")
-print(f"{new_q.text},{new_q.answer}")
