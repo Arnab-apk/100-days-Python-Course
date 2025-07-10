@@ -1,14 +1,17 @@
 question_data = [
-    {"text": "A slug's blood is green.", "answer": "True"},
-    {"text": "The loudest animal is the African Elephant.", "answer": "False"},
-    {"text": "Approximately one quarter of human bones are in the feet.", "answer": "True"},
-    {"text": "The total surface area of a human lungs is the size of a football pitch.", "answer": "True"},
-    {"text": "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.", "answer": "True"},
-    {"text": "In London, UK, if you happen to die in the House of Parliament, you are entitled to a state funeral.", "answer": "False"},
-    {"text": "It is illegal to pee in the Ocean in Portugal.", "answer": "True"},
-    {"text": "You can lead a cow down stairs but not up stairs.", "answer": "False"},
-    {"text": "Google was originally called 'Backrub'.", "answer": "True"},
-    {"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
-    {"text": "No piece of square dry paper can be folded in half more than 7 times.", "answer": "False"},
-    {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
-]
+#     {"text": "A slug's blood is green.", "answer": "True"},
+#     {"text": "The loudest animal is the African Elephant.", "answer": "False"},
+#     {"text": "Approximately one quarter of human bones are in the feet.", "answer": "True"},
+#     {"text": "The total surface area of a human lungs is the size of a football pitch.", "answer": "True"},
+#     {"text": "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.", "answer": "True"},
+#     {"text": "In London, UK, if you happen to die in the House of Parliament, you are entitled to a state funeral.", "answer": "False"},
+#     {"text": "It is illegal to pee in the Ocean in Portugal.", "answer": "True"},
+#     {"text": "You can lead a cow down stairs but not up stairs.", "answer": "False"},
+#     {"text": "Google was originally called 'Backrub'.", "answer": "True"},
+#     {"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
+#     {"text": "No piece of square dry paper can be folded in half more than 7 times.", "answer": "False"},
+#     {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
+
+{"type":"boolean","difficulty":"hard","category":"Entertainment: Video Games","text":"In &quot;The Sims&quot; series, the most members in a household you can have is 8.","answer":"True","incorrect_answers":["False"]},{"type":"boolean","difficulty":"hard","category":"Entertainment: Video Games","text":"In the game &quot;Melty Blood Actress Again Current Code&quot;, you can enter Blood Heat mode in Half Moon style.","answer":"False","incorrect_answers":["True"]},{"type":"boolean","difficulty":"hard","category":"Entertainment: Video Games","text":"Super Mario and Paarthurnax (Skyrim) are voiced by the same actor.","answer":"True","incorrect_answers":["False"]},{"type":"boolean","difficulty":"hard","category":"Entertainment: Video Games","text":"All of these maps were in &quot;Tom Clancy&#039;s Rainbow Six Siege&quot; on its initial release: House, Clubhouse, Border, Consulate.","answer":"False","incorrect_answers":["True"]},{"type":"boolean","difficulty":"hard","category":"Entertainment: Video Games","text":"McCree from Overwatch originally started as a character that was going to appear in a scrapped Starcraft game.","answer":"True","incorrect_answers":["False"]},{"type":"boolean","difficulty":"hard","category":"Entertainment: Video Games","text":"In &quot;Call Of Duty: World At War&quot;, the first appearance of the &quot;PPSH-41&quot; in &quot;Zombies&quot; was in the map &quot;Der Riese&quot;.","answer":"False","incorrect_answers":["True"]},{"type":"boolean","difficulty":"hard","category":"Entertainment: Video Games","text":"TF2: Sentry rocket damage falloff is calculated based on the distance between the sentry and the enemy, not the engineer and the enemy","answer":"False","incorrect_answers":["True"]},{"type":"boolean","difficulty":"hard","category":"Entertainment: Video Games","text":"The Paradox Interactive game &quot;Stellaris&quot; was released in 2016.","answer":"True","incorrect_answers":["False"]},{"type":"boolean","difficulty":"hard","category":"Entertainment: Video Games","text":"The retail disc of Tony Hawk&#039;s Pro Skater 5 only comes with the tutorial.","answer":"True","incorrect_answers":["False"]},{"type":"boolean","difficulty":"hard","category":"Entertainment: Video Games","text":"In The Witcher 3, the Zoltan Chivay Gwent card can be found under the Hanged Man&#039;s Tree.","answer":"True","incorrect_answers":["False"]}]
+
+
