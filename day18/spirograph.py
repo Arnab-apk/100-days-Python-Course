@@ -21,4 +21,3 @@ def draw_spi(size):
 draw_spi(5)
 screen.exitonclick()
 
-#finally made something pleasing  
