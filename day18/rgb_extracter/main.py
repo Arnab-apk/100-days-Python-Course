@@ -1,3 +1,4 @@
 import colorgram
+colors=colorgram.extract('image.jpg',10)
+print(colors)
 
-color=colorgram.extract("image.jpg",20)
