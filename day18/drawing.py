@@ -21,3 +21,4 @@ tim.forward(50)
 tim.setheading(180)
 
 screen.exitonclick()
+print("")
