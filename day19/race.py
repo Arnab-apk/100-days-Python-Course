@@ -20,7 +20,7 @@ tim.forward(600)
 tim.penup()
 for turtle_index in range(0,6):
     y=100
-    new_turtle=Turtle(shape="circle")
+    new_turtle=Turtle(shape="turtle")
     new_turtle.penup()
     new_turtle.color(colors[turtle_index])
     new_turtle.goto(x=-230,y=y_pos[turtle_index])
