@@ -27,11 +27,11 @@ class Snake:
     def up(self):
         self.head.setheading(90)
     def down(self):
-        self.head.setheading(-90)
+        self.head.setheading(270)
     def left(self):
-        self.head.setheading(90)
+        self.head.setheading(180)
     def right(self):
-        pass
+        self.head.setheading(0)
         
     
         
