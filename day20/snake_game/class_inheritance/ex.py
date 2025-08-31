@@ -18,4 +18,6 @@ class fish(animal):
 nemo=fish()
 nemo.breath()
 print(nemo.eyes)
-        
+
+#we can inherit the methods from other class using the super function intoa nother class and bring added functionality into it
+
